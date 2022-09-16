@@ -1,0 +1,17 @@
+Website Project planning
+
+Topic: History of Basketball
+
+1st heading: the history 
+
+heading 2:   The begining
+heading 3:The creator
+heading 3:where is was created
+heading 2:   NBA ABA merge
+heading 3:NBA and the ABA
+heading 3:when they merged
+heading 2:   Modern day Basketball
+heading 3:how the game evolved
+heading 3:the international spread of Basketball
+
+
