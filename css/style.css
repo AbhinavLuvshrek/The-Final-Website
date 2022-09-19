@@ -1,71 +1,69 @@
-html{ 
-    background-image: url(/Images/background.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+html {
+  background-image: url(/Images/background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
-.content{ 
-    background-color: rgba(255, 255, 255, 0.753);
-    width: 600px;
-    margin: 25px auto;
-    text-align: center;
-    padding: 10px 0 0;
+.content {
+  background-color: rgba(255, 255, 255, 0.753);
+  width: 600px;
+  margin: 25px auto;
+  text-align: center;
+  padding: 10px 0 0;
 }
 
-h1{ 
-font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-font-weight: bolder;
-font-size: 50px;
-color: RGB(238,103,48);
+h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bolder;
+  font-size: 50px;
+  color: RGB(238, 103, 48);
 }
-
-
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    margin-left: 0px;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    text-align: left;
-  }
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin-left: 0px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: left;
+}
 
-  li {
-    display: inline;
-    float:left;
-  }
+li {
+  display: inline;
+  float: left;
+}
 
-  li a{
-    display: block;
+li a {
+  display: block;
   color: rgb(255, 255, 255);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   background-color: black;
-  }
+}
 
-  li a:hover:not(.active){
-    background-color: white;
-    color: black;
-  }
+li a:hover:not(.active) {
+  background-color: white;
+  color: black;
+}
 
-  .active{ 
-    background-color: rgba(255, 255, 255, 0.349);
-    color: black;
-  }
+.active {
+  background-color: rgba(255, 255, 255, 0.349);
+  color: black;
+}
 
+.secondaryH {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 40px;
+}
 
-  .secondaryH{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 40px;
-  }
-
-  .thirdH{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 30px;
-    color: rgb(143, 138, 138);
-  }
+.thirdH {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  color: rgb(143, 138, 138);
+}
