@@ -1,0 +1,40 @@
+.Textback{
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    margin: 25px auto;
+    text-align: center;
+    padding: 10px 0 20px;
+    border-radius: 50px;
+}
+
+.quiz{
+    font-family:'Courier New', Courier, monospace;
+    color: blueviolet
+}
+
+.Score{
+    padding: 10px;
+}
+
+button{
+    color: #000000;
+    background-color: #e0dca2;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-weight: 200;
+    padding: 10px 20px;
+    font-size: 25px;
+    border-radius: 10px;
+    border-color: indigo;
+}
+
+.Score{
+    font-size: 50px;
+  font-weight: 100;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+Button:hover {
+    background-color: rgba(255, 255, 255, 0.904);
+    color: black;
+    cursor: pointer;
+  }
