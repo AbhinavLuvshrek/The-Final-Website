@@ -67,3 +67,19 @@ li a:hover:not(.active) {
   font-size: 30px;
   color: rgb(143, 138, 138);
 }
+
+.a {
+  color: gold;
+}
+
+.a:visited {
+  color: blue;
+}
+
+.a:hover {
+  color: blueviolet;
+}
+
+.a:active {
+  color: black;
+}
