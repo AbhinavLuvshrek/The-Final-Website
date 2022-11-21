@@ -1,54 +1,55 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Page 2</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/page2.css" />
+  </head>
 
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
-	<title>Page 2</title>
-	<link rel="stylesheet" href="../css/style.css"> 
-	<link rel="stylesheet" href="../css/page2.css"> 
-</head>
+  <body>
+    <ul class="Links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="page1.html">Content</a></li>
+      <li><a class="active" href="page2.html">The Quiz</a></li>
+    </ul>
+    <div class="Textback">
+      <p>Welcome to the final Quiz.</p>
 
-<body>
-	<ul class="Links">
-		<li> <a href="index.html">Home</a> </li>
-		<li> <a href="page1.html">Content</a> </li>
-		<li> <a class="active" href="page2.html">The Quiz</a> </li>
-	</ul>
-<div class="Textback"> 
-	<p>
-        Welcome to the final Quiz.
-    </p>
+      <h1 class="quiz">The Quiz</h1>
+      <p>
+        Who <strong>created</strong> basketball?
+        <input id="q1" class="Question" type="text" />
+      </p>
 
-    <h1 class="quiz">The Quiz</h1>
-	<p> 
-		Who <strong>created</strong> basketball? <input class="Question" type="text">
-	  </p>
-	  
-	  <p> 
-		<strong>Where</strong> was basketball created? <input class="Question" type="text"/> 
-	  </p>
-	  
-	  <p> 
-		<strong>There were 2 leagues</strong> they merged, what were they? <input class="Question" type="text"/> 
-	  </p>
-	  
-	  <p> 
-		Who shot enough 3s to <strong>change</strong> basketball? <input class="Question" type="text"/> 
-	  </p>
+      <p>
+        <strong>Where</strong> was basketball created?
+        <input id="q2" class="Question" type="text" />
+      </p>
 
-	  <p> 
-		 Which <strong>leauge</strong> do European countries participate in? <input class="Question" type="text"/> 
-	  </p>
-	  <Hr>
-		<div class="Score">
-	  <p> 
-		<Button>Submit</Button>
-	  </p>
-	  <p class="Score"> Score=----% </p>
-	  <hr>
-	</div>
-</div>
-</body>
+      <p>
+        <strong>There were 2 leagues</strong> they merged, what were they?
+        <input id="q3" class="Question" type="text" />
+      </p>
 
+      <p>
+        Who shot enough 3s to <strong>change</strong> basketball?
+        <input id="q4" class="Question" type="text" />
+      </p>
+
+      <p>
+        Which <strong>leauge</strong> do European countries participate in?
+        <input id="q5" class="Question" type="text" />
+      </p>
+      <hr />
+      <div class="Score">
+        <p>
+          <button id="btn">Submit</button>
+        </p>
+        <p class="Score">Score= <span id="output">----%</span></p>
+        <hr />
+      </div>
+    </div>
+  </body>
 </html>
