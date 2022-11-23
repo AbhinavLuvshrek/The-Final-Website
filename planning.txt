@@ -15,3 +15,50 @@ heading 3:how the game evolved
 heading 3:the international spread of Basketball
 
 
+// JavaScript Code
+document.getElementById("btn").addEventListener("click", btnclicked);
+
+function btnclicked() {
+  let q1 = document.getElementById("q1").value.toLowercase();
+  let q2 = document.getElementById("q2").value.toLowerCase();
+  let q3 = document.getElementById("q3").value.toLowerCase();
+  let q4 = document.getElementById("q4").value.toLowerCase();
+  let q5 = document.getElementById("q5").value.toLowerCase();
+  let output = (score / 5) * 100;
+  let score = +0;
+  let sc = document.getElementById("output");
+
+  q1 = q1.toLowerCase();
+  q2 = q2.toLowerCase();
+  q3 = q3.toLowerCase();
+  q4 = q4.toLowerCase();
+  q5 = q5.toLowerCase();
+
+  if (q1 === "james naismith") {
+    score + 1;
+  } else {
+    score + 0;
+  }
+  if (q2 === "springfield") {
+    score + 1;
+  } else {
+    score + 0;
+  }
+  if (q3 === "aba and nba" || q3 === "nba and aba") {
+    score + 1;
+  } else {
+    score + 0;
+  }
+  if (q4 === "curry" || q4 === "stephen curry") {
+    score + 1;
+  } else {
+    score + 0;
+  }
+  if (q5 === "euro league" || q5 === "euroleague") {
+    score + 1;
+  } else {
+    score + 0;
+  }
+
+  sc.innerHTML = output;
+}
