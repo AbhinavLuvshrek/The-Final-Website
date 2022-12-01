@@ -3,6 +3,7 @@ document.getElementById("btn").addEventListener("click", btnclicked);
 let score = 0;
 
 function btnclicked() {
+  score = 0;
   let q1 = document.getElementById("q1").value;
   let q2 = document.getElementById("q2").value;
   let q3 = document.getElementById("q3").value;
